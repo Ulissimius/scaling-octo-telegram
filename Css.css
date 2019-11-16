@@ -1,0 +1,209 @@
+body {
+    background: url("images/4704.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+div#content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1008px;
+    min-height: 762px;
+}
+
+div#world-pop-container {
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #289ede;
+    background: #112e51;
+    background: linear-gradient(to bottom,#1b487e 0,#112e51 100%);
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    0% {border-color: yellow;}
+    16.66% {border-color: orange;}
+    33.32% {border-color: red;}
+    49.98% {border-color: cyan;}
+    66.64% {border-color: purple;}
+    83.3% {border-color: green;}
+    100% {border-color: yellow;}
+}
+
+.rolling-digit {
+    top: 0;
+    background-image: url('images/strip-bg.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    border: 1px solid #102e40;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 4px 4px 0 rgba(184,209,221,0.1);
+    box-shadow: 0 4px 4px 0 rgba(184,209,221,0.1);
+}
+
+span {
+    margin-right: 4px;
+    display: inline-block;
+    overflow: hidden;
+    height: 44px;
+    position: relative;
+    top: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 0 0 2px #000;
+    filter: dropshadow(color=#000000,offx=0,offy=0);
+}
+.notransition {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+/*Image ID Block*/
+/* 
+0 = 0
+1 = 44
+2 = 88
+3 = 132
+4 = 176
+5 = 220
+6 = 264
+7 = 308
+8 = 352
+9 = 396
+0 = 440  */
+#img1 {
+    position: relative;
+    animation-name: movestrip10;
+    top: -200px;
+    animation-duration: 4110000000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img2 {
+    position: relative;
+    animation-name: movestrip9;
+    animation-duration: 411000000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img3 {
+    position: relative;
+    animation-name: movestrip8;
+    animation-duration: 41100000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img4 {
+    position: relative;
+    animation-name: movestrip7;
+    animation-duration: 4110000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img5 {
+    position: relative;
+    animation-name: movestrip6;
+    animation-duration: 411000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img6 {
+    position: relative;
+    animation-name: movestrip5;
+    animation-duration: 41100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img7 {
+    position: relative;
+    animation-name: movestrip4;
+    animation-duration: 4110s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img8 {
+    position: relative;
+    animation-name: movestrip3;
+    animation-duration: 411s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img9 {
+    position: relative;
+    animation-name: movestrip2;
+    animation-duration: 41.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img10 {
+    position: relative;
+    animation-name: movestrip1;
+    animation-duration: 4.11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* @keyframes movestrip10 {
+    0% {top: -308PX;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip9 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip8 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip7 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip6 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip5 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip4 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip3 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip2 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
+/* @keyframes movestrip1 {
+    0% {top: 0px;}
+    100% {top: -440px;}
+} */
