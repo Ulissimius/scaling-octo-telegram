@@ -1,6 +1,9 @@
-var arr = document.querySelectorAll('.imgs')
+var arr = document.querySelectorAll('.imgs');
 var posArr = [];
-arr.forEach(myFunction)
+
+var birthsDis = document.querySelectorAll('.dBP');
+
+arr.forEach(myFunction);
 function myFunction(item) {
     var a = parseInt(item.style.top.slice(0, item.style.top.length-2));
     posArr.push(a);
@@ -83,6 +86,19 @@ function myMove() {
         }
     }
 } 
+
+var id = setInterval(birthDeath, 1000);
+function birthDeath() {
+    birthsDis[0].innerHTML = Math.floor(getDate() * 4.5);
+
+    birthsDis[1].innerHTML = Math.floor(getDate() * 1.8);
+
+    function getDate() {
+        let d = new Date();
+        return d.getHours() * 3600 + d.getMinutes() * 60 + d.getSeconds();
+    }
+}
+birthDeath();
 myMove();
 
 // var whatever = document.querySelector("#img10").style.top;

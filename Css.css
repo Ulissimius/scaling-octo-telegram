@@ -9,17 +9,17 @@ div#content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1008px;
+    /* width: 1008px; */
     min-height: 762px;
 }
 
 div#world-pop-container {
     border: 5px solid black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /* border-radius: 10px; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
     padding: 18px 10px;
     text-align: center;
     font-weight: bold;
@@ -39,6 +39,15 @@ div#world-pop-container {
     66.64% {border-color: purple;}
     83.3% {border-color: green;}
     100% {border-color: yellow;}
+}
+
+.newDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    background: #112e51;
+    background: linear-gradient(to bottom,#1b487e 0,#112e51 100%);
 }
 
 .rolling-digit {
@@ -170,40 +179,40 @@ span {
 /* @keyframes movestrip10 {
     0% {top: -308PX;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip9 {
+}
+@keyframes movestrip9 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip8 {
+}
+@keyframes movestrip8 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip7 {
+}
+@keyframes movestrip7 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip6 {
+}
+@keyframes movestrip6 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip5 {
+}
+@keyframes movestrip5 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip4 {
+}
+@keyframes movestrip4 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip3 {
+}
+@keyframes movestrip3 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip2 {
+}
+@keyframes movestrip2 {
     0% {top: 0px;}
     100% {top: -440px;}
-} */
-/* @keyframes movestrip1 {
+}
+@keyframes movestrip1 {
     0% {top: 0px;}
     100% {top: -440px;}
 } */
